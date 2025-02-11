@@ -26,7 +26,7 @@ p, h1, h2, h3, h4 {
     columns: 2;
 }
 .grid_img {
-    height: 144px;
+    width: 50%;
 }
 .grid_item {
     border-style: solid;
