@@ -1,0 +1,35 @@
+.center {
+    text-align: center;
+}
+body {
+    background-color: rgb(24, 24, 24);
+}
+p, h1, h2, h3, h4 {
+    color: rgb(220, 200, 120);
+    font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.big {
+    font-size: 40pt;
+}
+.normal {
+    font-size: 20pt;
+}
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 64px;
+    column-gap: 64px;
+    columns: 2;
+}
+.grid_img {
+    height: 212px;
+}
+.grid_item {
+    border-style: solid;
+    border-width: 8px;
+    border-color: rgb(220, 200, 120);
+    padding: 8px;
+}
