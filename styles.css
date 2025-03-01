@@ -2,6 +2,9 @@
     text-align: center;
     align-items: center;
 }
+.left {
+    text-align: left;
+}
 body {
     background-color: rgb(24, 24, 24);
 }
