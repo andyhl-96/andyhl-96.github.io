@@ -33,6 +33,28 @@ p, h1, h2, h3, h4 {
     height: 256px;
     border-radius: 10%;
 }
+.big_img {
+    width: 960px;
+    height: 640px;
+    border-radius: 10%;
+}
+.info {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    column-gap: 10%;
+    row-gap: 5%;
+    columns: 3;
+}
+.info_item {
+    font-size: 20pt;
+    border-color: rgb(220, 200, 120);
+    border-radius: 10%;
+    border-width: 4px;
+    border-style: solid;
+}
 * {
     box-sizing: border-box;
 }
