@@ -23,7 +23,7 @@
                 -- Archimedes.
                 <br><br>
                 Broadly, I enjoy anything involving mathematical theory and anything requiring its application. This includes 
-                rigorous tasks such as playing Elden Ring and Civilization VI. I'm working on going outside for once by getting 
+                rigorous tasks such as playing Elden Ring and Civilization VI. I casually do a bit of game dev. I'm working on going outside for once by getting 
                 into climbing, but I also know ball. If you were wondering, this is the best picture I have of myself.
                 <hr style="margin-left: 10%; margin-right: 10%;">
                 <div class="info" style="margin-right: 10%;">
@@ -112,8 +112,44 @@
         <hr style="margin-left: 10%; margin-right: 10%;">
         <div class="center" style="margin-left: 20%; margin-right: 20%;">
             <h2 style="text-align: left;">
-                Projects
+                Projects (Recent)
             </h2>
+            <h4 style="text-align: left; margin-left: 5%; margin-bottom: 0%;">
+                SEPTIK: Stein-Enhanced Pathwise-Inverse Kinematics
+            </h4>
+            <a href="https://github.com/andyhl-96/SEPTIK">
+                <img class="grid_img" src="assets/septik.gif" style="float: left; padding-left: 5%; margin-right: 5%; width: 50%; height: 50%;">
+            </a>
+            <p class="normal" style="text-align: left; margin-left: 5%; margin-top: 0%;">
+                This was a fun project I worked on over break which implements a python/jax library for pathwise-inverse kinematics. Having read the STAMPEDE paper on pathwise IK by Rakita et al., as well as having 
+                recently completed the below project, I felt like doing my own take on pathwise IK taking some inspiration from STAMPEDE as well as other prior works. The main 
+                features of SEPTIK are automatic vectorization for runtime gains, as well as Stein-variational projection onto self-motion manifolds to promote sample diversity. 
+                Intuitively, by obtaining diverse samples on a self-motion manifold, it is likely the case that we don't need to draw as many samples per timestep as STAMPEDE does, which leads 
+                to faster computation of minimum error paths. Furthermore, to make these paths executable in the real-world, we enforce continuity up to acceleration by interpolating quintic polynomials 
+                between the timesteps. Finally, by treating each timestep as a layer in a multipartite graph as in STAMPEDE, solving for the minimum cost path through this graph from the first to 
+                last layer, we are able to compute a minimum cost path. The goal is that our paths have less error than STAMPEDE and are computed in less time.
+            </p>
+            <h4 style="text-align: left; margin-left: 5%; margin-bottom: 0%;">
+                SCP: GPU-Accelerated Stein-Variational Manifold Constrained Planning
+            </h4>
+            <p class="normal" style="text-align: left; margin-left: 5%;">
+                Sample text
+            </p>
+            <h4 style="text-align: left; margin-left: 5%; margin-bottom: 0%;">
+                Real-Time Planning Demonstration
+            </h4>
+            <p class="normal" style="text-align: left; margin-left: 5%;">
+                Sample text
+            </p>
+            <h4 style="text-align: left; margin-left: 5%; margin-bottom: 0%;">
+                Franka Teleoperation
+            </h4>
+            <p class="normal" style="text-align: left; margin-left: 5%;">
+                Sample text
+            </p>
+            <h4 style="text-align: left; margin-left: 5%; margin-bottom: 0%;">
+                Spaceballs
+            </h4>
             <p class="normal" style="text-align: left; margin-left: 5%;">
                 Sample text
             </p>
