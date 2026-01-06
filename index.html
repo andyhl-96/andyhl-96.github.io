@@ -6,24 +6,24 @@
     </head>
     <body>
         <div class="center">
-            <h1 class="big" style="margin-top: 5%; margin-left: 5%;">
+            <h1 class="big" style="margin-top: 5%; margin-left: 10%;">
                 Andrew H. Liu
             </h1>
         </div>
 
-        <div class="center">
-            <p class="normal" style="padding-left: 10%; padding-right: 10%;">
-                <img class="grid_img" src="assets/andy1-480.webp" style="float: left; margin-right: 10%; margin-bottom: 10%;">
+        <div class="center" style="margin-top: 5%">
+            <img class="grid_img" src="assets/andy1-480.webp" style="float: left; margin-right: 10%; margin-bottom: 10%; margin-left: 10%; border-radius: 100%;">
+            <p class="normal" style="padding-left: 10%; padding-right: 10%; padding-top: 60px;">
                 I'm currently an undergraduate at Purdue studying computer science and mathematics. I work as an 
                 undergraduate researcher in Purdue CoMMA Lab under the direction of Professor Zachary Kingston.
                 <br><br>
-                As of now, my research interests lie in methods of real-time planning and trajectory optimization, including learned, probabilistic, and hardware 
+                As of now, my research interests lie in methods of real-time planning, manifold constrained planning, and trajectory optimization, including learned, probabilistic, and hardware 
                 accelerated approaches, by which we can satisfy kinodynamic and geometric constraints while keeping 
-                computation time at a minimum. In the tongue of our forefathers, how can we "make robot go fast in fast way"
-                -- probably Archimedes.
+                computation time at a minimum. In the tongue of our forefathers, how can we "make robot go fast"
+                -- Archimedes.
                 <br><br>
                 Broadly, I enjoy anything involving mathematical theory and anything requiring its application. This includes 
-                rigorous tasks such as playing Elden Ring and Civilization VI. Im working on going outside for once by getting 
+                rigorous tasks such as playing Elden Ring and Civilization VI. I'm working on going outside for once by getting 
                 into climbing, but I also know ball. If you were wondering, this is the best picture I have of myself.
                 <hr style="margin-left: 10%; margin-right: 10%;">
                 <div class="info" style="margin-right: 10%;">
@@ -33,23 +33,25 @@
                     <a href="https://github.com/andyhl-96">
                         <p class="normal" style="text-align: center;">Github</p>
                     </a>
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/andrew-h-liu-b6a45b168/">
                         <p class="normal" style="text-align: center;">LinkedIn</p>
                     </a>
                 </div>
             </p>
         </div>
-        <br><br><br><br>
-        <hr style="margin-left: 10%; margin-right: 10%;">
+        <hr style="margin-top: 10%; margin-left: 10%; margin-right: 10%;">
         <div class="center" style="margin-left: 20%; margin-right: 20%;">
             <h2 style="text-align: left;">
                 Academics
             </h2>
             <p class="normal" style="text-align: left; margin-left: 5%;">
-                BS/MS Computer science honors, Purdue University (Main Campus)
+                BS/MS Computer science honors, Purdue University (Main Campus), 4.0/4.0
             </p>
             <p class="normal" style="text-align: left; margin-left: 5%;">
-                BS Mathematics, Purdue University (Main Campus)
+                BS Mathematics, Purdue University (Main Campus), 3.97/4.0
+            </p>
+            <p class="normal" style="text-align: left; margin-left: 5%;">
+                Dean's list
             </p>
         </div>
         <hr style="margin-left: 10%; margin-right: 10%;">
@@ -57,23 +59,48 @@
             <h2 style="text-align: left;">
                 Experience
             </h2>
-            <p class="normal" style="text-align: left; margin-left: 5%;">
-                Sample text
-            </p>
+            <h4 style="text-align: left; padding-left: 5%; margin-bottom: 0%;">
+                Undergraduate Research Assistant, Purdue CoMMA Lab<br>
+                <p class="normal" style="text-align: left; padding-left: 5%;">
+                    • Pursuing first author publications under Prof. Zak Kingston<br>
+                    • Led development of lab's real-time planning demonstration w/ Franka robotic manipulators. Engineered C++ library for pointcloud perception/localization and velocity-based control system for Franka arm.<br>
+                    • Implemented reactive teleoperation system with Franka arms and Valve Index for expert demonstration data collection via weighted optimization-based inverse kinematics. Extended to bimanual setup with collision avoidance.<br>
+                    • Collaborated with Purdue Camp Lab in sim2real policy transfer of fully pixel-based concept embedding model with VLM reward shaping. Designed wrist camera mount via Solidworks and implemented real-world perception and action system.<br>
+                    • Partnered with Queen's University ESP research group on analysis of real-time replanning feasibility. Implemented real world experiment of real-time ASAO planning w/ AORRTC, collected metrics on runtime, path length, etc.
+                </p>
+            </h4>
+            <h4 style="text-align: left; padding-left: 5%; margin-bottom: 0%;">
+                Undergraduate Teaching Assistant, Purdue University
+                <p class="normal" style="text-align: left; padding-left: 5%;">
+                    • CS 18200: Foundations of Computer Science (Spring 2026)<br>&nbsp;&nbsp;
+                        ◦ Attending weekly TA meetings, answering questions on online forum, holding office hours, proctoring exams.<br>
+                    • CS 38100: Intro. to the Analysis of Algos. (Fall 2025)<br>&nbsp;&nbsp;
+                        ◦ Holding office hours to assist in problem solving. Grading assignments and offering constructive feedback.<br>
+                    • CS 25200: Systems Programming (Spring 2025)<br>&nbsp;&nbsp;
+                        ◦ Held office hours, assisted in programming labs, graded assignments, helped with exam grading and proctoring<br>
+                    • CS 19300: Tools (Fall 2024)<br>&nbsp;&nbsp;
+                        ◦ Assisted freshman CS students in learning fundamental software tools and participated in info panel regarding Purdue CS
+                </p>
+            </h4>
         </div>
         <hr style="margin-left: 10%; margin-right: 10%;">
         <div class="center" style="margin-left: 20%; margin-right: 20%;">
             <h2 style="text-align: left;">
                 Publications
             </h2>
+            <a href="https://arxiv.org/abs/2510.21074">
+                <img class="grid_img" src="assets/image.png" style="float: left; margin-right: 5%; width: 10%; height: 10%;">
+            </a>
             <h4 style="text-align: left; padding-left: 5%; margin-bottom: 0%;">
                 Revisiting Replanning from Scratch: Real-Time Incremental Planning with Fast Almost-Surely Asymptotically Optimal Planners
             </h4>
-            <p class="normal" style="text-align: left; margin-left: 8%; margin-top: 0%;">
+            <p class="normal" style="text-align: left; margin-left: 5%; margin-top: 0%;">
                 Mitchell E. C. Sabbadini, Andrew H. Liu, Joseph Ruan, Tyler S. Wilson, Zachary Kingston, and Jonathan D. Gammell<br>
                 (Under review)
             </p>
-            <a href="https://arxiv.org/abs/2510.21074"><p class="normal" style="margin-left: 8%;">Paper</p></a>
+            <a href="https://arxiv.org/abs/2510.08851">
+                <img class="grid_img" src="assets/cde.png" style="float: left; margin-right: 5%; width: 10%; height: 10%;">
+            </a>
             <h4 style="text-align: left; margin-left: 5%; margin-bottom: 0%;">
                 CDE: Concept-Driven Exploration for Reinforcement Learning 
             </h4>
@@ -81,7 +108,6 @@
                 Le Mao, Andrew H. Liu, Renos Zabounidis, Zachary Kingston, and Joseph Campbell<br>
                 (Under review)
             </p>
-            <a href="https://arxiv.org/abs/2510.08851"><p class="normal" style="margin-left: 8%;">Paper</p></a>
         </div>
         <hr style="margin-left: 10%; margin-right: 10%;">
         <div class="center" style="margin-left: 20%; margin-right: 20%;">
@@ -97,8 +123,25 @@
             <h2 style="text-align: left;">
                 Outreach
             </h2>
+            <h4 style="text-align: left; margin-left: 5%; margin-bottom: 0%;">
+                Northfield Jr./Sr. High School
+            </h4>
             <p class="normal" style="text-align: left; margin-left: 5%;">
-                Sample text
+                I traveled with Zak and fellow lab member Miras to Indiana's Northfield High to assist with a talk and demonstration about Purdue computer science and robotics.
+                I had the privilege of talking about some of my experiences in Purdue's CS program and shared some insights about studying CS, and the fun I have doing robotics research.
+                I also got to pilot around the Spot for a bit.
+                Below are some pictures from the visit.
+            </p>
+            <img src="assets/OR-0.jpg" style="align-self: center; width: 25%; height: 25%;"></img>
+            <img src="assets/OR-1.jpg" style="align-self: center; width: 25%; height: 25%;"></img>
+            <img src="assets/OR-2.jpg" style="align-self: center; width: 25%; height: 25%;"></img>
+            <h4 style="text-align: left; margin-left: 5%; margin-bottom: 0%;">
+                Purdue CS Department Visit
+            </h4>
+            <p class="normal" style="text-align: left; margin-left: 5%;">
+                Once again assisted Zak with another high school event about CS and robotics, this time taking place in Lawson Commons with a quick break for lunch. 
+                Got some much needed exercise carrying the Spot to and from the event, piloted the Spot around again, and got to interact with some of the students. 
+                Sadly, I couldn't find pictures of this one.
             </p>
         </div>
         <hr style="margin-left: 10%; margin-right: 10%;">
