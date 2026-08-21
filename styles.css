@@ -9,8 +9,12 @@ body {
     background-color: rgb(16, 16, 16);
 }
 p, h1, h2, h3, h4 {
-    color: rgb(220, 220, 180);
-    font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-family: 'sans-serif';
+    padding-bottom: 0%;
+    padding-top: 0%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
 }
 .big {
     font-size: 36pt;
@@ -33,7 +37,7 @@ p, h1, h2, h3, h4 {
 .grid_img {
     width: 256px;
     height: 256px;
-    /* border-radius: 100%; */
+    border-radius: 10%;
 }
 .big_img {
     width: 960px;
